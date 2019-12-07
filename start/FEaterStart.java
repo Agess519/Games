@@ -1,8 +1,8 @@
-package rule;
+package start;
 import java.util.Scanner;
 import rule.FEater;
 
-public class start {
+public class FEaterStart {
 	private static Scanner sc;
 
 	public static void main(String args[]) {
