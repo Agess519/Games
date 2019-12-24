@@ -1,6 +1,5 @@
 package rule;
 import java.util.Scanner;
-
 import fEaterLevels.*;
 import obj.*;
 
@@ -8,7 +7,7 @@ public class FEater {
 	static int score = 0;
 	static int step = 5;
 	private static Scanner sc;
-	base[][] map = new base[10][10];
+	base[][] map = new base[10][20];
 	
 	public void play(int level) {
 		sc = new Scanner(System.in);
@@ -50,7 +49,7 @@ public class FEater {
 	}
 	public void show() {
 		for(int i=0;i<10;i++) {
-			for(int j=0;j<10;j++) {
+			for(int j=0;j<20;j++) {
 				System.out.print(map[i][j].draw());
 			}
 			System.out.println();
